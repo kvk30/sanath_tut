@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hungry men</title>
+<script>
+function myFunction() {
+   var x = document.getElementById("vada").value;
+   x = x * 10;
+   document.getElementById("test").innerHTML = x;
+
+}
+
+</script>
+</head>
+<body>
+<p>Menu List</p>
+<div>
+<p style = "align:left;">Idly
+</p>
+<p style = "align:right;">
+<input id ="vad" type = "number" value = "0" min = "0" max = "10" >
+</p>
+</div>
+<div>
+<p style = "align:left;">Vada
+</p>
+<p style = "align:right;">
+<input id ="vada" type = "number" value = "0" min = "0" max = "10" >
+<button onclick = "myFunction">okay
+</button>
+<p id = "test"> vada:
+</p>
+</p>
+</div>
+</body>
+</html>
